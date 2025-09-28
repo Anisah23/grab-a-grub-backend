@@ -14,6 +14,7 @@ faker = "*"
 python-dotenv = "*"
 werkzeug = "<3"
 flask-bcrypt = "*"
+gunicorn = "*"
 
 [dev-packages]
 

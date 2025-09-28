@@ -6,3 +6,4 @@ Flask-CORS==4.0.0
 Flask-Bcrypt==1.0.1
 SQLAlchemy-serializer==1.4.1
 python-dotenv==1.0.0
+gunicorn==21.2.0
