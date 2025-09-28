@@ -138,3 +138,6 @@ The frontend will be available at `http://localhost:3000`
 ## Author
 -Anisah23
 -Carltonshiyai
+
+## License
+This project is licensed under the MIT License.
