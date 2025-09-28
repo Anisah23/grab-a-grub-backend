@@ -648,7 +648,7 @@ class UserProfile(Resource):
                     filename = str(uuid.uuid4()) + '.' + file.filename.rsplit('.', 1)[1].lower()
                     filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
                     file.save(filepath)
-                    user.profile_picture = f'http://localhost:5000/uploads/{filename}'
+                    user.profile_picture = f'https://grab-a-grub-backend.onrender.com/uploads/{filename}'
             
             if request.form:
                 username = request.form.get('username')
